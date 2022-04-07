@@ -1,0 +1,215 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    font-family: sans-serif;
+}
+.container {
+    width: 1080px;
+    margin: auto;
+}
+a {
+    text-decoration: none;
+}
+/* normal Background Color change*/
+.btn {
+    padding: 15px 45px;
+    font-size: 20px;
+    text-transform: capitalize;
+    border: 1px solid;
+    border-radius: 6px;
+    margin: auto;
+    display: block;
+    background-color: cornflowerblue;
+}
+.background_filter {
+    height: 300px;
+    margin-top: 50px;
+    background-color: cornflowerblue;
+    position: relative;
+}
+.background_filter span {
+    font-size: 30px;
+
+}
+.background_filter h3 {
+    font-size: 30px;
+    background: #0e0e0ec9;
+    color: white;
+    padding: 15px;
+    width: 50%;
+    margin: auto;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.bg_filter_inner {
+    position: absolute;
+    left: 0%;
+    top: 30%;
+    width: 100%;
+}
+.bg_color {
+    color:cornflowerblue;
+}
+/* Hex Background Color Change */
+.btn_hex {
+    padding: 15px 45px;
+    font-size: 20px;
+    text-transform: capitalize;
+    border: 1px solid;
+    border-radius: 6px;
+    margin: auto;
+    display: block;
+    background-color: cornflowerblue;
+}
+.background_filter_hex {
+    height: 300px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color: cornflowerblue;
+    position: relative;
+}
+.background_filter_hex span {
+    font-size: 30px;
+
+}
+.background_filter_hex h3 {
+    font-size: 30px;
+    background: #0e0e0ec9;
+    color: white;
+    padding: 15px;
+    width: 50%;
+    margin: auto;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.bg_filter_inner_hex {
+    position: absolute;
+    left: 0%;
+    top: 30%;
+    width: 100%;
+}
+.bg_color_hex {
+    color:cornflowerblue;
+}
+
+
+/* calculator make */
+
+.calculator {
+    width: 350px;
+    height: 450px;
+    border: 1px solid;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+.top_cal {
+    background: silver;
+    width: auto;
+    height: 100px;
+    border-radius: 5px 5px 5px 3px;
+    margin-bottom: 40px;
+}
+
+.bottom_cal {
+    height: 350px;
+}
+
+.btn_1 {
+    width: 80%;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.btn_1 button {
+    width: 50px;
+    height: 50px;
+    font-size: 20px;
+    font-weight: bold;
+    margin-right: 20px;
+    border-radius: 50%;
+    border: none;
+}
+.btn_1 button:last-child{
+    margin-right:0px;
+    color: red;
+}
+.btn_1 button:active{
+    color: darkgray;
+}
+.btn_2 {
+    width: 80%;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.btn_2 button {
+    width: 50px;
+    height: 50px;
+    font-size: 20px;
+    font-weight: bold;
+    margin-right: 20px;
+    border-radius: 50%;
+    border: none;
+}
+.btn_2 button:last-child{
+    margin-right:0px;
+    color: red;
+}
+.btn_2 button:active{
+    color: darkgrey;
+}
+.btn_3 {
+    width: 80%;
+    margin: auto;
+    margin-bottom: 20px;
+}
+.btn_3 button {
+    width: 50px;
+    height: 50px;
+    font-size: 20px;
+    font-weight: bold;
+    margin-right: 20px;
+    border-radius: 50%;
+    border: none;
+}
+.btn_3 button:last-child{
+    margin-right:0px;
+    color: red;
+}
+.btn_3 button:active{
+    color: darkgrey;
+}
+.btn_4 {
+    width: 80%;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.btn_4 button {
+    width: 50px;
+    height: 50px;
+    font-size: 20px;
+    font-weight: bold;
+    margin-right: 20px;
+    border-radius: 50%;
+    border: none;
+}
+.btn_4 button:last-child{
+    margin-right:0px;
+    color: red;
+}
+.btn_4 button:active{
+    color: darkgray;
+}
+
+.display_cal{
+    font-size: 30px;
+    margin: auto;
+    height: 60px;
+    padding-top:30px;
+    text-align:center;
+    font-weight: bold;
+}
